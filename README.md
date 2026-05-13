@@ -173,6 +173,7 @@ tiket-backend/
 ## Deployment
 
 Hosted on AWS EC2 (Ubuntu). PostgreSQL runs on the same instance.
+**Live API:** http://13.234.112.143:8000/docs
 
 ```
 Internet → EC2 Security Group (port 8000) → Uvicorn → FastAPI → PostgreSQL
